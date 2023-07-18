@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body {
+    background: #042d4a;
+}
+header {
+    background: #6cc2f4;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    padding: 22px 80px;
+    justify-content: space-between;
+    font-weight: 600;
+
+}
+.logo{
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+.navbar a{
+text-decoration: none;
+color: #021925;
+font-weight: 800;
+padding-left: 25px;
+font-size: 20px;
+}
+.navbar a:hover {
+    color: aliceblue;
+}
+section{
+    padding: 100px 200px;
+
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 17px;
+    background: url(Untitled\ design\ \(4\).png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0 70px;
+
+}
+.home-content{
+    max-width: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 0 10px;
+    
+   
+}
+h1{
+    font-size: 56px;
+    color: rgb(141, 183, 219);
+    font-weight: 800;
+    
+}
+h2{
+    color: #f0f2f3;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.text{
+    color: #f0f2f3;
+    margin-top: 17px;
+    letter-spacing: 1px;
+    
+}
+.main-btn{
+    padding: 10px 70px;
+    color: #f0f2f3;
+    background: #063d65;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:  2px;
+    width: fit-content;
+    transition: 0.8s ease;
+    margin-top: 20px;
+}
+.main-btn:hover{
+    background-color: #134e6b;
+    transform: scale(1.1);
+    padding: 17px 80px;
+    
+}
+.icons {
+    font-size: 63px;
+    margin: 5px;
+}
+
+.title{
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card1{
+    
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #6cc2f4;
+    width: 21.25em;
+    box-shadow: 0 5px 25px;
+    border-radius: 10px;
+    padding-left: 12px;
+    margin: 20px;
+    transition: 0.8 ease;
+    
+}
+.card2{
+    background-color: #6cc2f4;
+    width: 21.25em;
+    box-shadow: 0 5px 25px;
+    border-radius: 10px;
+    padding-left: 12px;
+    margin: 20px;
+    transition: 0.8 ease;
+    padding: auto;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    color: rgb(1, 10, 18);
+    font-size: 10em;
+    text-align: center;
+}
+.info h3{
+    color: aliceblue;
+    font-size: 20px;
+}
+.info{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.info h3{
+    color: #f6f7f8;
+    margin: 10px;
+}
+
+
+/*contact*/
+
+.backgroundimg {
+    background: url(Untitled\ design\ \(5\).png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 50px;
+    color: #f0f2f3;
+  }
+  
+  .Us {
+    text-align: center;
+    color: #f0f2f3;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #1d49db;
+    color: rgb(20, 111, 238);
+    cursor: pointer;
+    color: #021925;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f1f6f1;
+  }
+  
+  textarea {
+    height: 100px;
+  }
