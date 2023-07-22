@@ -11,16 +11,13 @@ body {
 }
 header {
     background: #6cc2f4;
-    left: 0;
     width: 100%;
     position: fixed;
-    z-index: 100;
     display: flex;
     align-items: center;
-    padding: 22px 80px;
     justify-content: space-between;
+    padding: 22px 80px;
     font-weight: 600;
-
 }
 .logo {
     font-size: 25px;
@@ -30,51 +27,43 @@ header {
     text-decoration: none;
 }
 .navbar a {
-text-decoration: none;
-color: #021925;
-font-weight: 800;
-padding-left: 25px;
-font-size: 20px;
+    text-decoration: none;
+    color: #021925;
+    font-weight: 800;
+    padding-left: 25px;
+    font-size: 20px;
 }
 .navbar a:hover {
     color: aliceblue;
 }
 section {
-    padding: 100px 200px;
-
+    padding: 150px 200px;
 }
 .home {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 0 17px;
     background: url(Untitled\ design\ \(4\).png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 0 70px;
+    padding: 50px;
 
 }
 .home-content {
-    max-width: 600;
     display: flex;
     flex-direction: column;
-    gap: 0 10px;
-    
-   
 }
 h1 {
     font-size: 56px;
     color: rgb(141, 183, 219);
     font-weight: 800;
-    
 }
 h2 {
     color: #f0f2f3;
     font-size: 30px;
     font-weight: 700;
-    
 }
 .text {
     color: #f0f2f3;
@@ -91,7 +80,6 @@ h2 {
     font-weight: 700;
     letter-spacing: 1px;
     border-radius: 15px;
-    margin-bottom:  2px;
     width: fit-content;
     transition: 0.8s ease;
     margin-top: 20px;
@@ -103,22 +91,17 @@ h2 {
     
 }
 .icons {
-    font-size: 63px;
+    font-size: 50px;
     margin: 5px;
 }
 
 .title {
     text-align: center;
-    font-size: 2.2em;
+    font-size: 2.8em;
     font-weight: 700;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
-.content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+
 .card1 {
     
     justify-content: flex-start;
@@ -129,7 +112,6 @@ h2 {
     border-radius: 10px;
     padding-left: 12px;
     margin: 20px;
-    transition: 0.8 ease;
     
 }
 .card2 {
@@ -139,8 +121,7 @@ h2 {
     border-radius: 10px;
     padding-left: 12px;
     margin: 20px;
-    transition: 0.8 ease;
-    padding: auto;
+   
     
 }
 .content {
@@ -172,9 +153,7 @@ h2 {
 
 .backgroundimg {
     background: url(Untitled\ design\ \(5\).png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    
 }
 .container {
     max-width: 800px;
@@ -197,15 +176,14 @@ h2 {
     margin-top: 10px;
   }
   
-  input,
-  textarea {
+  input, textarea {
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 10px;
   }
   
   input[type="submit"] {
-    background-color: #54a6e8;
+    background-color: #4386bd;
     color: rgb(58, 121, 209);
     cursor: pointer;
     color: #021925;
@@ -216,26 +194,22 @@ h2 {
   input[type="submit"]:hover {
     background-color: #f1f6f1;
   }
-  
-  textarea {
-    height: 100px;
-  }
 
 
   /*skills*/
 
+.skills, h2{
+    font-size: 39px;
+    letter-spacing: 2px;
+} 
 
   #skills ul {
     list-style-type: none;
     padding: 0;
   }
   
-  .skill {
-    margin-bottom: 10px;
-  }
-  
   .skill h3 {
-    margin: 0;
+    margin: 10px;
     color: #f0f2f3;
   }
   
@@ -258,6 +232,10 @@ h2 {
     color: #fff;
     padding: 20px;
     text-align: center;
+  }
+  .elepse {
+    background-color: #f0f2f3;
+    border-radius: 50;
   }
   
   
